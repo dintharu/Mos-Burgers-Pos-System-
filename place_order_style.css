@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    height: 100vh;
+    overflow: auto;
+    background-image: url('images/bg_burger2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar{
+    padding: 1rem 0;
+    background-color: rgba(255, 255, 0.99, 0.99)
+}
+
+.navbar-brand span{
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+
+.main-content{
+    height: calc(108vh - 80px);
+    background: transparent;
+}
+
+.category-btn {
+    border: none;
+    background: none;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    border-radius: 8px;
+    color: #666;
+    font-weight: 500;
+}
+        
+.category-btn.active {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.category-btn:hover{
+    background-color: #e9ecef;
+}
+.search-bar {
+        border: 2px solid #e9ecef;
+        border-radius: 10px;
+    }
+        
+.search-bar:focus {
+    border-color: #ffc107;
+}
+
+.customer-input {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+}
+
+.customer-input:focus {
+    border-color: #ffc107;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 12px;
+    background: #ffc107;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.checkout-btn:hover {
+    background: #ffb300;
+}
+
+.menu-item{
+    cursor: pointer;
+}
+
+.customer-add-btn{
+      border: none !important;
+    outline: none !important;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.customer-add-btn :hover{
+    background-color: #e9ecef;
+   
+}
